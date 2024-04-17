@@ -1,0 +1,14 @@
+{
+	"routes":[
+		{
+			"path":"/hello",
+			"methods":[
+				"GET"
+			],
+			"backend":{
+				"type": "ORACLE_FUNCTIONS_BACKEND",
+				"functionId": ""
+			}
+		}
+	]
+}
